@@ -101,7 +101,7 @@ class Stackdriver implements StackdriverIntegrationInterface
                 InvalidStackdriverSetupException::class,
                 __('Project name and/or key file path is invalid')
             );
-            throw $exception;
+            //throw $exception;
         }
     }
 
